@@ -64,24 +64,18 @@ openai
 claude
 Anthropic
 
-iphone
-ipad
-mac
-ios
 
-ai
-!gai
+
+
 人工智能
 
 汽车
 自动驾驶
-l3
+
 
 机器人
 
-芯片
-半导体
-光刻机
+
 
 科技
 
@@ -92,3 +86,10 @@ l3
 火星
 宇宙
 飞船
+
+军事
+
+俄乌战争
+以色列
+伊朗
+
