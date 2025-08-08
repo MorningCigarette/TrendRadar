@@ -1,0 +1,122 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>总标题数: 255</p><p>生成时间: 2025-08-08 14:49:35</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">chatgpt openai</td>
+                    <td class="count">3</td>
+                    <td class="percentage">1.18%</td>
+                    <td class="titles">[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31335762" target="_blank" class="news-link">GPT-5登场，有三大亮点！OpenAI奥特曼：已从大学生变博士级专家</a> [11] <font color='grey'>- 14时49分</font><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2109507" target="_blank" class="news-link">OpenAI推出GPT-5模型 机构称AI应用落地与政策支持共振加速</a> [12] <font color='grey'>- 14时49分</font></div><br>[zhihu] <a href="https://www.zhihu.com/question/1936723434760568978" target="_blank" class="news-link">OpenAI 官宣 GPT-5 8 月 8 日凌晨一点发布，有什么信息值得关注？</a> [14] <font color='grey'>- 14时49分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">微软 Microsoft</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.78%</td>
+                    <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3752897" target="_blank" class="news-link">OpenAI最强模型GPT-5来了！免费可用，Altman高呼迈向AGI一大步，微软抢先接入</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 14时49分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2109694" target="_blank" class="news-link">GPT-5深夜炸场！微软抢先集成 机构看好AI编程加速发展</a> [8] <font color='grey'>- 14时49分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">历史</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.78%</td>
+                    <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3752868" target="_blank" class="news-link">历史性时刻！特朗普签署行政令，允许401K账户投资加密货币、私募基金等其他另类投资</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 14时49分</font><br>[华尔街见闻] <a href="https://wallstreetcn.com/articles/3752840" target="_blank" class="news-link">中国7月稀土出口环比跌23%，大豆进口创历史最高，铁矿石进口连续三个月保持在1亿吨上方</a> [10] <font color='grey'>- 14时49分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">哪吒 饺子</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[百度热搜] <a href="https://www.baidu.com/s?wd=%E3%80%8A%E6%B5%AA%E6%B5%AA%E5%B1%B1%E3%80%8B%E7%A0%B4%E4%BA%BF%E6%B5%B7%E6%8A%A5%E8%A2%AB%E6%8C%87%E6%8A%84%E8%A2%AD%E3%80%8A%E5%93%AA%E5%90%922%E3%80%8B" target="_blank" class="news-link">《浪浪山》破亿海报被指抄袭《哪吒2》</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 14时49分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">马斯克 特斯拉</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3752903" target="_blank" class="news-link">马斯克解散Dojo超算团队，特斯拉放弃自研AI芯片，更依赖英伟达了</a> [8] <font color='grey'>- 14时49分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">军事</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[财联社热门] <a href="https://www.cls.cn/detail/2109523" target="_blank" class="news-link">以总理计划军事控制加沙地带 哈马斯强烈谴责 | 环球市场</a> [11] <font color='grey'>- 14时49分</font></td>
+                </tr>
+            
+            </table>
+        
+            <div class="new-section">
+                <h3>🆕 本次新增热点新闻 (共 1 条)</h3>
+            <h4>财联社热门 (1 条)</h4><ul><li><a href="https://www.cls.cn/detail/2109507" target="_blank" class="news-link">OpenAI推出GPT-5模型 机构称AI应用落地与政策支持共振加速</a> [12]</li></ul></div>
+        </body>
+        </html>
+        
