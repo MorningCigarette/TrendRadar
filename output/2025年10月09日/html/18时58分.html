@@ -1,0 +1,114 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>总标题数: 255</p><p>生成时间: 2025-10-09 18:58:08</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">马斯克 特斯拉</td>
+                    <td class="count">3</td>
+                    <td class="percentage">1.18%</td>
+                    <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3756804" target="_blank" class="news-link">黄仁勋：近半年AI需求大增，英伟达参投马斯克的xAI，可惜没投更多，对OpenAI也这样遗憾</a> [8] <font color='grey'>- 18时58分</font><br>[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E5%BB%89%E4%BB%B7%E7%89%88%E7%89%B9%E6%96%AF%E6%8B%89%E6%9D%A5%E4%BA%86%E8%82%A1%E4%BB%B7%E4%B8%BA%E4%BD%95%E8%BF%98%E8%B7%8C" target="_blank" class="news-link">廉价版特斯拉来了股价为何还跌</a> [8] <font color='grey'>- 18时58分</font><br>[douyin] <a href="https://www.douyin.com/hot/2263428" target="_blank" class="news-link">廉价版特斯拉来了股价为何还跌</a> [28] <font color='grey'>- 18时58分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">科技</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.78%</td>
+                    <td class="titles">[douyin] <a href="https://www.douyin.com/hot/2264074" target="_blank" class="news-link">飞驰吧 向着科技强国</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 18时58分</font><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2164524" target="_blank" class="news-link">【数据看盘】机构豪掷近10亿买入两只电池人气股 外资、一线游资联手抢筹深科技</a> [11] <font color='grey'>- 18时58分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">俄乌战争 以色列 伊朗</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.78%</td>
+                    <td class="titles">[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31744178" target="_blank" class="news-link">以色列和哈马斯达成停火协议第一阶段：确保以色列全面撤军</a> [7] <font color='grey'>- 18时58分</font><br>[tieba] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28345608&amp;amp;topic_name=%E4%BC%8A%E6%9C%97%E4%B8%80%E5%A4%9C%E7%BF%BB%E7%AF%87%2C%E5%A4%B4%E5%B7%BE%E5%8E%8B%E8%BF%AB%E5%AE%A3%E5%91%8A%E7%BB%88%E7%BB%93" target="_blank" class="news-link">伊朗一夜翻篇,头巾压迫宣告终结</a> [18] <font color='grey'>- 18时58分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">黄仁勋 英伟达 NVIDIA</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3756825" target="_blank" class="news-link">英伟达、甲骨文、AMD只是开始？Altman：OpenAI还会有更多大交易</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 18时58分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">历史</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31741276" target="_blank" class="news-link">金价再创历史新高，港股黄金股狂飙！节后A股有色板块会否接棒向上？</a> [14] <font color='grey'>- 18时58分</font></td>
+                </tr>
+            
+            </table>
+        
+            <div class="new-section">
+                <h3>🆕 本次新增热点新闻 (共 1 条)</h3>
+            <h4>财联社热门 (1 条)</h4><ul><li><a href="https://www.cls.cn/detail/2164524" target="_blank" class="news-link">【数据看盘】机构豪掷近10亿买入两只电池人气股 外资、一线游资联手抢筹深科技</a> [11]</li></ul></div>
+        </body>
+        </html>
+        
