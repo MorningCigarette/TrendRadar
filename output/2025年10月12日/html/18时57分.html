@@ -1,0 +1,106 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>总标题数: 255</p><p>生成时间: 2025-10-12 18:57:50</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">俄乌战争 以色列 伊朗</td>
+                    <td class="count">4</td>
+                    <td class="percentage">1.57%</td>
+                    <td class="titles">[凤凰网] <a href="https://news.ifeng.com/c/8nOOq10pBmb" target="_blank" class="news-link">美特使感谢以色列总理，被以民众嘘声多次打断</a> [11] <font color='grey'>- 18时57分</font><br>[凤凰网] <a href="https://news.ifeng.com/c/8nOO6pKYCVk" target="_blank" class="news-link">以色列“无意再战”，伊朗：不信</a> [12] <font color='grey'>- 18时57分</font><br>[tieba] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28345716&amp;amp;topic_name=%E4%B8%96%E9%A2%84%E8%B5%9B%E5%85%AD%E8%BF%9E%E8%83%9C%2C%E6%8C%AA%E5%A8%815%3A0%E5%A4%A7%E8%83%9C%E4%BB%A5%E8%89%B2%E5%88%97" target="_blank" class="news-link">世预赛六连胜,挪威5:0大胜以色列</a> [15] <font color='grey'>- 18时57分</font><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E7%BE%8E%E5%86%9B%E5%B7%B2%E5%BC%80%E5%A7%8B%E6%8A%B5%E8%BE%BE%E4%BB%A5%E8%89%B2%E5%88%97" target="_blank" class="news-link">美军已开始抵达以色列</a> [16] <font color='grey'>- 18时57分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">科技</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.78%</td>
+                    <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3757040" target="_blank" class="news-link">荷兰政府对闻泰科技安世半导体下手：张学政董事职务被停，一外籍董事将有决定性投票权，中资股权仅剩1股！去年其营收147亿</a> [7] <font color='grey'>- 18时57分</font><br>[百度热搜] <a href="https://www.baidu.com/s?wd=%E9%97%BB%E6%B3%B0%E7%A7%91%E6%8A%80147%E4%BA%BF%E5%8D%8A%E5%AF%BC%E4%BD%93%E8%B5%84%E4%BA%A7%E8%A2%AB%E8%8D%B7%E5%85%B0%E5%86%BB%E7%BB%93" target="_blank" class="news-link">闻泰科技147亿半导体资产被荷兰冻结</a> [8] <font color='grey'>- 18时57分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">历史</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.78%</td>
+                    <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3757023" target="_blank" class="news-link">币圈“历史最大爆仓”，谁亏得最惨？“永续合约新贵”Hyperliquid是重灾区</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 18时57分</font><br>[华尔街见闻] <a href="https://wallstreetcn.com/articles/3757031" target="_blank" class="news-link">伦敦白银惊现历史性逼空，市场流动性几乎完全枯竭！</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 18时57分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">流浪地球 郭帆 三体 刘慈欣</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=1000%E4%BA%BA%E5%A4%8D%E5%88%BB%E4%B8%89%E4%BD%93%E4%BA%BA%E5%88%97%E8%AE%A1%E7%AE%97%E6%9C%BA" target="_blank" class="news-link">1000人复刻三体人列计算机</a> [11] <font color='grey'>- 18时57分</font></td>
+                </tr>
+            
+            </table>
+        
+            <div class="new-section">
+                <h3>🆕 本次新增热点新闻 (共 1 条)</h3>
+            <h4>百度热搜 (1 条)</h4><ul><li><a href="https://www.baidu.com/s?wd=%E7%BE%8E%E5%86%9B%E5%B7%B2%E5%BC%80%E5%A7%8B%E6%8A%B5%E8%BE%BE%E4%BB%A5%E8%89%B2%E5%88%97" target="_blank" class="news-link">美军已开始抵达以色列</a> [16]</li></ul></div>
+        </body>
+        </html>
+        
